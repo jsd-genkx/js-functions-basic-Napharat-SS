@@ -28,7 +28,7 @@ const greetWithExpression = function (name) {
 }
 
 // 👨‍💻 TODO-03: Arrow Function: greetWithArrow(name)
-const greetWithArrow = (name) => `Hello, ${name}!`;
+const greetWithArrow = name => `Hello, ${name}!`;
 
 // Example Test Cases
 console.log(greetWithDeclaration("John Doe")); // "Hello, John Doe!"
